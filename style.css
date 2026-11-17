@@ -1,0 +1,40 @@
+@font-face {
+    font-family: hihi;
+    src: url(./Storm);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color:rgb(141, 183, 194);
+    background:linear-gradient(rgb(147, 147, 191));
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+div{
+    color: rgb(202, 202, 28);
+    font-size: 50px;
+    background: linear-gradient(to right ,  rgb(48, 48, 181) , rgb(140, 52, 52) , rgb(178, 178, 62));
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: monospace;
+    font-style: italic;
+    background-image: url(https://i.pinimg.com/736x/a2/fe/21/a2fe21da9ce7d1698f5b48cdb506c853.jpg);
+    background-size: cover;
+    background-position: 0% 100%;
+}
